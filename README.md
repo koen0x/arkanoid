@@ -63,6 +63,26 @@ Autoplay uses the same paddle movement and game actions as a normal player. It c
 
 Because sometimes it's fun to watch the machine fight the machine. 🤖⚔️👾
 
+## 🧪 Debug Lab
+
+The Debug Lab is built for testing collisions, autoplay decisions and tricky edge cases while keeping the normal 60 Hz game simulation intact.
+
+When **DEBUG** is enabled, the following controls are available:
+
+| Key | Action |
+|---|---|
+| **D** | Open or close diagnostics and the timeline inspector |
+| **B** | Open Ball Test |
+| **P** | Cycle the paddle-contact zone lock |
+| **T** | Set or clear the autoplay target point |
+| **J** | Export debug / timeline data |
+| **← / →** | Browse captured frames |
+| **Shift + ← / →** | Jump 60 frames |
+| **[ / ]** | Change simulation speed |
+| **\\** | Reset simulation speed to 1× |
+
+The Debug Lab is intended as a compact engineering playground for inspecting physics and controller behavior without changing normal game rules.
+
 ## 👹 Round 33
 
 Round 33 contains the final **DOH** encounter and is handled separately from the normal brick rounds.
